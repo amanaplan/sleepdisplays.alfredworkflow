@@ -44,23 +44,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>script</key>
-				<string>pmset displaysleepnow</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CAE58E4B-B858-4121-BA24-94367ADE6B15</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -82,6 +65,23 @@
 			<string>4A800BBF-2EE5-4013-92EB-C58A13803D86</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>pmset displaysleepnow</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CAE58E4B-B858-4121-BA24-94367ADE6B15</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
