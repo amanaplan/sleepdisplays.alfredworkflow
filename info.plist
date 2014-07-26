@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.44at9.alfred.sleepdisplays</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>4A800BBF-2EE5-4013-92EB-C58A13803D86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CAE58E4B-B858-4121-BA24-94367ADE6B15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C43F16C9-271D-46C4-BC61-F0F1FAFAFFF9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CAE58E4B-B858-4121-BA24-94367ADE6B15</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Christian Stück</string>
+	<key>description</key>
+	<string>Turn off all displays and lock.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Sleep Displays (OS X 10.9+)</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>pmset displaysleepnow</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CAE58E4B-B858-4121-BA24-94367ADE6B15</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>4A800BBF-2EE5-4013-92EB-C58A13803D86</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>sd</string>
+				<key>subtext</key>
+				<string>Turn off all displays and lock.</string>
+				<key>text</key>
+				<string>Sleep Displays</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C43F16C9-271D-46C4-BC61-F0F1FAFAFFF9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Compatible with Mac OS X 10.9 (Mavericks) and later.
+
+Based on Josh Dick’s “Sleep Displays” Alfred 2 workflow (http://techanic.net/2013/02/27/sleep_displays_with_alfred_v2.html), which in turn is based on Tony Wang’s "Sleep Display" Alfred 1 extension (http://blog.wwwjfy.net/2011/11/01/alfred-extensions-sleep-display).
+
+This fork removes the “sleepDisplays” binary and uses a native OS X 10.9 command.</string>
+	<key>uidata</key>
+	<dict>
+		<key>4A800BBF-2EE5-4013-92EB-C58A13803D86</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>C43F16C9-271D-46C4-BC61-F0F1FAFAFFF9</key>
+		<dict>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>CAE58E4B-B858-4121-BA24-94367ADE6B15</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://github.com/amanaplan</string>
+</dict>
+</plist>
